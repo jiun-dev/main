@@ -54,7 +54,8 @@ section {
 /*typing*/
 
 .typewriter h1 {
-	font-size: 25px;
+  font-size: 25px;
+  font-weight: bold;
 	text-align: center;
 	color: black;
 	font-family: monospace;
@@ -102,7 +103,7 @@ section {
 }
 
 .timeline p {
-
+  font-weight: bold;
   border-top: 2px dashed;
   border-color: blue !important;
   margin:0; padding: 30px;
