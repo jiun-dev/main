@@ -386,5 +386,15 @@ footer {
   padding-top: 300px;
 }
 
-/*nav*/
+/*top btn*/
+
+#move_top_btn {
+  position: fixed;
+  right: 2%;
+  bottom: 50px;
+  display: none;
+  z-index: 999;
+  border: 1px solid black;
+  font-weight: bold;
+}
 
