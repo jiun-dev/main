@@ -107,6 +107,14 @@ header {
   color: #999999;
 }
 
+/*background*/
+
+.main {
+  background: url("../images/header.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
 /*section*/
 
 section {
@@ -150,6 +158,7 @@ section {
 
 .introduce {
   padding-top: 200px;
+  opacity:0;
 }
 
 .introduce_text {
@@ -400,22 +409,3 @@ footer {
 
 /*fade in*/
 
-.top {
-  margin: 0;
-  position: relative;
-  width: 100%;
-  /* background-color: #aaa; */
-  height: 300px;
-  opacity: 1;
-  text-align: center;
-  font-family: 'helvetica';
-  font-size: 80px;
-  font-weight: 100;
-  color: #fff;
-}
-
-.title {
-  position: absolute;
-  top: 60%;
-  left: 100px;
-}
