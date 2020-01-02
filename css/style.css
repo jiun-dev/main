@@ -109,10 +109,16 @@ header {
 
 /*background*/
 
-.main {
+.background {
   background: url("../images/header.jpg");
+  /* background-color: #777777; */
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  
+}
+
+.background_color {
+  background-color: #777777;
 }
 
 /*section*/
@@ -139,7 +145,6 @@ section {
 	animation: 
 	  typing 2.5s steps(45, end),
 	  blink-caret .5s step-end infinite;
-	/* padding-bottom: 250px ; */
   }
   
   /* The typing effect */
@@ -373,7 +378,7 @@ footer {
 .contact_right {
   padding:50px 150px;
   font-weight: bold;
-  color: #777777;
+  color:black;
 }
 
 .sns {
