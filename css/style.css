@@ -131,6 +131,10 @@ section {
 
 /*typing*/
 
+.typewriter {
+  padding-top: 50px;
+}
+
 .typewriter h1 {
   font-size: 25px;
   font-weight: bold;
@@ -412,5 +416,5 @@ footer {
   font-weight: bold;
 }
 
-/*fade in*/
+/*media query*/
 
