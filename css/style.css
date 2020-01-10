@@ -26,6 +26,7 @@ a,a:link{
 * {margin: 0; padding: 0; vertical-align: top; border: 0; outline: 0;}
 
 /*header*/
+
 header {
   position: fixed;
   width: 100%;
@@ -54,8 +55,9 @@ header {
 }
 
 .sns {
-  float: left;
   padding-left: 700px ;
+  display: inline-block;
+  padding-top: 20px;
 }
 
 .sns li {
@@ -63,13 +65,11 @@ header {
   padding: 15px 15px;
 }
 
-
-
 /*background*/
 
-.background {
-  /* background: url("../images/header.jpg"); */
-  /* background-color: #777777; */
+/* .background {
+  background: url("../images/header.jpg");
+  background-color: #777777;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   
@@ -77,15 +77,7 @@ header {
 
 .background_color {
   background-color: #777777;
-}
-
-/*section*/
-
-section {
-  padding-top:150px ;
-  text-align: center;
-
-}
+} */
 
 /*typing*/
 
@@ -109,13 +101,15 @@ section {
 	  blink-caret .5s step-end infinite;
   }
   
-  /* The typing effect */
+/* The typing effect */
+
   @keyframes typing {
 	from { width: 0 }
 	to { width: 15% }
   }
   
-  /* The typewriter cursor effect */
+/* The typewriter cursor effect */
+
   @keyframes blink-caret {
 	from, to { border-color: transparent }
 	50% { border-color: black }
@@ -131,6 +125,16 @@ section {
 .introduce_text {
   font-weight: bold;
 }
+
+/*section*/
+
+section {
+  padding-top:150px ;
+  text-align: center;
+
+}
+
+
 /*skills*/
 
 #bars {
@@ -157,8 +161,6 @@ section {
 	display: block;
 	margin: 0.7em auto;
 }
-
-/*--------------------*/
 
 /*portfolio*/
 
@@ -252,11 +254,6 @@ footer {
   color:black;
 }
 
-.sns {
-  display: inline-block;
-  padding-top: 20px;
-}
-
 .contact_sns p {
   display: inline;
 }
@@ -310,8 +307,8 @@ footer {
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
- 
-
+  
+  
   
 
 }
