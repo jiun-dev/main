@@ -11,15 +11,21 @@
 </head>
 <body>
     <header>
-        <div class="logo"></div>
+        <div class="logo">
+            <a href="#"><img src="images/logo.png" alt="logo"></a>
+        </div>
         <div class="topnav">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li id="btn1"><a href="#">Profile</a></li>
-                <li id="btn2"><a href="#">Portfolio</a></li id="btn1">
-                <li id="btn3"><a href="#">Contact</a></li>
+                <li class="btn" style="text-transform: capitalize;"><a href="#">home</a></li>
+                <li class="btn" style="text-transform: capitalize;" id="btn1"><a href="#">skills</a></li>
+                <li class="btn" style="text-transform: capitalize;" id="btn2"><a href="#">portfolio</a></li>
+                <li class="btn" style="text-transform: capitalize;" id="btn3"><a href="#">contact</a></li>
             </ul>
         </div>
+        <ul class="sns">
+            <li><a href="https://www.instagram.com/ji_un95/"><img src="images/insta_w.png" alt="fav"></a></li>
+            <li><a href="https://github.com/jiun-dev?tab=repositories"><img src="images/github_w.png" alt="fav"></a></li>
+        </ul>
     </header>
     <section>
         <div class="background">
@@ -41,67 +47,67 @@
                 </div>
             </div>
         </div>
-            <a class="scroll" href="#"><span></span><span></span><span></span>Scroll</a>
         </div>
-        <div class="timeline">
-            <div style="font-weight: 800;" id="div1">profile</div>
-            <p>14년 2월 금호고등학교 졸업</p>
-            <p>17년 8월 16일 육군 병장 전역</p>
-            <p>19년 9월 11일 GTQ 1급 취득</p>
-            <p>19년 09월 20일 웹디자인 기능사 취득</p>
-            <p>19년 11월 1일 한울 직업전문학교 수료</p>
-            <p></p>   
-        </div>
-        <ul class="work">
-            <div style="font-weight: 800;" id="div2">portfolio</div>
-            <h2 class="notext">work</h2>
-                <a href="http://jiun.dothome.co.kr/lotte-elstyle/">
-                    <li>
-                        <figure class="snip1273">
-                            <img src="images/screencapture-jiun-dothome-co-kr-lotte-elstyle-2019-12-23-16_09_05.png" alt="sample72" >
-                            <figcaption>
-                            <h3>lotte-elstyle</h3>
-                            <p>롯데 엘스타일 메인페이지를 제작하여 보았습니다.</p>
-                        </figcaption>
-                    </li>
-                </a>
-                <a href="http://jiun.dothome.co.kr/amore/">
-                    <li>
-                        <figure class="snip1273">
-                            <img src="images/screencapture-jiun-dothome-co-kr-amore-2019-12-23-16_09_52.png" alt="sample72" >
-                            <figcaption>
-                            <h3>AmorePacific</h3>
-                            <p>아모레퍼시픽 메인페이지를 제작하여 보았습니다.</p>
-                        </figcaption>
-                    </li>
-                </a>
-                <a href="http://jiun.dothome.co.kr/responsive/">
-                    <li>
-                        <figure class="snip1273">
-                            <img src="images/screencapture-file-C-Users-ms-Desktop-main-index-html-2020-01-08-15_28_13.png" alt="sample72" >
-                            <figcaption>
-                            <h3>포트폴리오 사이트</h3>
-                            <p>지금까지 만든 사이트를 정리한 포트폴리오 사이트입니다. 반응형으로 제작하였으며 제작하는 과정에서 반응형 웹을
-                                연습하는 좋은 기회가 되었습니다.
-                            </p>
-                        </figcaption>
-                    </li>
-                </a>
-        </ul>
+        <div class="skills">
+            <div id="bars" class="div1"> 
+                <div class="bar" data-percent="80">
+                    <h3>CSS</h3>
+                    <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+                <div class="bar" data-percent="80">
+                    <h3>HTML5</h3>
+                    <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+                <div class="bar" data-percent="80">
+                    <h3>JavaScript</h3>
+                    <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+                <div class="bar" data-percent="70">
+                    <h3>photoshop</h3>
+                    <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+                <div class="bar" data-percent="70">
+                    <h3>illustrator</h3>
+                    <canvas class="bar-circle" width="70" height="70"></canvas>
+                </div>
+            </div>	 
+        </div>    
+        <div class="work" id="div2"> 
+            <a href="http://jiun.dothome.co.kr/lotte-elstyle/">
+                <div class="portfolio">
+                <img src="images/lottethumb.png" alt="thumb">
+                <span class="text">롯데 엘스타일</span>
+                </div>
+            </a>
+            <a href="http://jiun.dothome.co.kr/amore/">
+            <div class="portfolio">
+                <img src="images/amorethumb.png" alt="thumb">
+                <span class="text">아모레 퍼시픽</span>
+            </div>
+            </a>
+            <a href="http://jiun.dothome.co.kr/lotte-elstyle/">
+            <div class="portfolio">
+                <img src="images/mainthumb.png" alt="thumb">
+                <span class="text">포트플리오 사이트</span>
+            </div>
+            </a>
+        </div> 
     </section>
     <footer>
         <ul class="contact">
-            <div style="font-weight: 800;" id="div3">contact</div>
+            <div style="font-weight: 800; text-transform: capitalize;" id="div3">contact</div>
             <h4 style="padding-bottom: 150px;" class="notext">contact</h4>
             <li class="contact_left">
                 <img src="images/profile.jpg" alt="profile">
             </li>
             <li class="contact_right">
-                <p>e-mail : tlswldns456@naver.com</p>
-                <p>phone : 010 - 3643 - 2868</p>
-                <p>address : 광주 광역시 북구 동림동 (동림용산로12)</p>
-                <p class="insta"><a href="https://www.instagram.com/ji_un95/"><img src="images/insta_fav.jpg" alt="insta_fav"></a></p>
-                <p class="github"><a href="https://github.com/jiun-dev?tab=repositories"><img src="images/github_fav.png" alt="github_fav"></a></p>
+                <p>E-mail : tlswldns456@naver.com</p>
+                <p>Phone : 010 - 3643 - 2868</p>
+                <p>Address : 광주 광역시 북구 동림동 (동림용산로12)</p>
+                <div class="contact_sns">
+                <p class="insta"><a href="https://www.instagram.com/ji_un95/"><img src="images/insta.png" alt="insta_fav"></a></p>
+                <p class="github"><a href="https://github.com/jiun-dev?tab=repositories"><img src="images/github.png" alt="github_fav"></a></p>
+                </div>
             </li>
         </ul>
         <div class="copy">
@@ -109,7 +115,7 @@
             <h6>본 페이지는 상업용이 아닌 포트폴리오 용으로 제작되었습니다.</h6>
         </div>
         <a id="move_top_btn" href="#">TOP</a>
-        <!-- 2020.01.07 -->
+        <!-- 2020.01.010 -->
     </footer>
 </body>
 </html>
