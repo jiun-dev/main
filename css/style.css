@@ -28,8 +28,11 @@ a,a:link{
 /*header*/
 
 header {
-  
-  /* background-image:url() ; */
+  background: url("../images/main.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-color: #accff9;
   width: 100%;
   height: 700px;
@@ -63,7 +66,7 @@ header ul {
 }
 
 .topnav ul li {
-  padding: 40px 20px;
+  padding: 20px 20px;
   position: relative;
   float: left;
   color: #395abb;
@@ -74,9 +77,78 @@ header ul {
   color: #eef;
 }
 
-/*introduce*/
+/*welcome*/
 
+.welcome {
+  position: relative;
+  margin-left:55% ;
+  padding-top: 15%;
+}
 
+.welcome_title {
+  font-size: 50px;
+  color: #7496d6;
+}
+
+.welcome_text {
+  font-size: 25px;
+  padding-top: 20px;
+  color: #395abb;
+}
+
+.welcome p {
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #7496d6;
+}
+
+/* about */
+
+.about {
+  position: relative;
+  margin-left: 15%;
+  padding-top:150px;
+  text-transform: uppercase;
+}
+
+.about > p {
+  text-align: left;
+}
+
+.about_title {
+  font-size: 50px;
+  font-weight: 900;
+  color: #333;
+}
+
+.about_title span {
+  color: #7496d6;
+}
+
+.about_title2 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #333;
+  opacity: 0.7;
+}
+
+.about_title2 span {
+  color: #7496d6;
+}
+
+.about_text1 {
+  /* font-size: 25px; */
+  font-weight: 700;
+  color: #333;
+  opacity: 0.5;
+}
+
+.about_text2 {
+  font-weight: 700;
+  color: #333;
+  opacity: 0.5;
+}
 
 /*section*/
 
@@ -84,7 +156,6 @@ section {
   padding-top:150px ;
   text-align: center;
 }
-
 
 /*skills*/
 
