@@ -1,3 +1,14 @@
+/* navbar background color change on scroll */
+
+$(window).scroll(function(){
+	var scroll = $(window).scrollTop();
+	if(scroll < 300){
+		$('.topnav').css('background', 'transparent');
+	} else{
+		$('.topnav').css('background', 'rgba(0, 0, 0, 0)');
+	}
+});
+
 /* scroll btn */
 
 $(document).ready(function(){
@@ -39,28 +50,7 @@ $(function() {
     });
 });
 
-/* fade in out */
-
-$(document).ready(function() {
-    /* 1 */
-    $(window).scroll( function(){
-        /* 2 */
-        $('.introduce').each( function(i){
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-            /* 3 */
-            if( bottom_of_window > bottom_of_object/10 ){
-                $(this).animate({'opacity':'1'},800);
-            }
-        }); 
-    });
-});
-
-/* skills */
-
-/* Credits: 
- * https://www.developphp.com/video/JavaScript/Circular-Progress-Loader-Canvas-JavaScript-Programming-Tutorial
- */
+/* skills circle */
 
 (function() {
 	
@@ -151,6 +141,8 @@ $(document).ready(function() {
 	});
 	
 })();
+
+
 
 
 
