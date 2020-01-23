@@ -28,110 +28,61 @@ a,a:link{
 /*header*/
 
 header {
-  position: fixed;
+  
+  /* background-image:url() ; */
+  background-color: #accff9;
   width: 100%;
-  height: 10%;
-  background-color: black;
-  z-index: 9999;
-  /* opacity: 0.7; */
+  height: 700px;
+}
+
+header .topnav .logo, ul {
+  display: inline-block;
+}
+
+header ul {
+  margin-left: 700px;
 }
 
 .logo {
-  margin: 0 auto;
   float: left;
+  margin:5px 15px;
 }
 
 .topnav {
+  width: 100%;
   float: left;
-  margin:20px 15px;
+  height: 10%;
+  position: fixed;
+  z-index: 9999;
   font-weight: bolder;
-  text-align: center;
+  /* background-color: #EEE; */
+  box-sizing: border-box;
+  padding: 12px 18px;
+  box-shadow: 0px 4px 7px #777;
+  transition: background-color 0.4s ease-out;
 }
 
 .topnav ul li {
-  display: inline;
-  padding: 15px 15px;
-  color: white;
+  padding: 40px 20px;
+  position: relative;
+  float: left;
+  color: #395abb;
 }
 
-.sns {
-  padding-left: 700px ;
-  display: inline-block;
-  padding-top: 20px;
+.topnav .scroll {
+  background-color: #A1572F;
+  color: #eef;
 }
-
-.sns li {
-  display: inline;
-  padding: 15px 15px;
-}
-
-/*background*/
-
-/* .background {
-  background: url("../images/header.jpg");
-  background-color: #777777;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  
-}
-
-.background_color {
-  background-color: #777777;
-} */
-
-/*typing*/
-
-.typewriter {
-  padding-top: 50px;
-}
-
-.typewriter h1 {
-  font-size: 25px;
-  font-weight: bold;
-	text-align: center;
-	color: black;
-	font-family: monospace;
-	overflow: hidden; /* Ensures the content is not revealed until the animation */
-	border-right: .15em solid black; /* The typwriter cursor */
-	white-space: nowrap; /* Keeps the content on a single line */
-	margin: 0 auto; /*Gives that scrolling effect as the typing happens */
-	letter-spacing: .15em; /* Adjust as needed */
-	animation: 
-	  typing 2.5s steps(45, end),
-	  blink-caret .5s step-end infinite;
-  }
-  
-/* The typing effect */
-
-  @keyframes typing {
-	from { width: 0 }
-	to { width: 15% }
-  }
-  
-/* The typewriter cursor effect */
-
-  @keyframes blink-caret {
-	from, to { border-color: transparent }
-	50% { border-color: black }
-  }
 
 /*introduce*/
 
-.introduce {
-  padding-top: 200px;
-  opacity:0;
-}
 
-.introduce_text {
-  font-weight: bold;
-}
 
 /*section*/
 
 section {
   padding-top:150px ;
   text-align: center;
-
 }
 
 
@@ -168,72 +119,32 @@ section {
   padding-top: 300px;
 }
 
-.portfolio {
-  position: relative;
-  display: inline-block;
-}
-
-.portfolio img {
-  max-width: 100%;
-}
-
-.portfolio span.text {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  display: none;
-  width: 100%;
-  font-size: 25px;
-  color: black;
-  font-weight: 900;
+.work ul li img {
   text-align: center;
+  position: relative;
+  max-width: 600px;
+  
 }
 
-.portfolio::before, .portfolio::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 95%;
-  height: 95%;
-  transform: translate(-50%,-50%);
-  transition: all .8s;
+.work_img {
+  margin: 100px auto;
 }
 
-.portfolio::before {
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-  width: 0;
+.work_img p {
+  margin: 50px auto;
+  font-weight: 700;
 }
 
-.portfolio::after {
-  border-left: 2px solid black;
-  border-right: 2px solid black;
-  height: 0;
-}
-
-.portfolio:hover span.text {
-  display: block;
-}
-
-.portfolio:hover::before {
-  width: 95%;
-}
-
-.portfolio:hover::after {
-  height: 95%;
-}
 
 /*footer*/
 
 footer {
+  position: relative;
   text-align: center;
-  padding-top: 300px;
+  margin-top: 300px;
 }
 
 .contact {
-  padding-top: 150px;
   text-align: center;
 }
 
@@ -338,3 +249,7 @@ footer {
   
   
 }
+
+
+
+
