@@ -72,6 +72,10 @@ header ul {
   color: #395abb;
 }
 
+.topnav ul li:hover {
+  color:#c25996;
+}
+
 .topnav .scroll {
   background-color: #A1572F;
   color: #eef;
@@ -106,6 +110,7 @@ header ul {
 /* about */
 
 .about {
+  height: 800px;
   position: relative;
   margin-left: 15%;
   padding-top:150px;
@@ -146,8 +151,8 @@ header ul {
 
 .about_text2 {
   font-weight: 700;
-  color: #333;
-  opacity: 0.5;
+  color: #c25996;
+  /* opacity: 0.5; */
 }
 
 /*section*/
@@ -158,6 +163,11 @@ section {
 }
 
 /*skills*/
+
+.skills {
+  background-color: #7496d6;
+  height: 800px;
+}
 
 #bars {
   padding-top: 500px;
