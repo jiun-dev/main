@@ -14,43 +14,24 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <a href="#"><img src="images/logo.png" alt="logo"></a>
-        </div>
         <div class="topnav">
+            <div class="logo">
+                <a href="#"><img src="images/logo.png" alt="logo"></a>
+            </div>
             <ul>
                 <li class="btn" style="text-transform: capitalize;"><a href="#">home</a></li>
                 <li class="btn" style="text-transform: capitalize;" id="btn1"><a href="#">skills</a></li>
                 <li class="btn" style="text-transform: capitalize;" id="btn2"><a href="#">portfolio</a></li>
                 <li class="btn" style="text-transform: capitalize;" id="btn3"><a href="#">contact</a></li>
+                <!-- <li class="sns"><a href="https://www.instagram.com/ji_un95/" target="_blank"><img src="images/insta_w.png" alt="fav"></a></li>
+                <li class="sns"><a href="https://github.com/jiun-dev?tab=repositories" target="_blank"><img src="images/github_w.png" alt="fav"></a></li> -->
             </ul>
         </div>
-        <ul class="sns">
-            <li><a href="https://www.instagram.com/ji_un95/" target="_blank"><img src="images/insta_w.png" alt="fav"></a></li>
-            <li><a href="https://github.com/jiun-dev?tab=repositories" target="_blank"><img src="images/github_w.png" alt="fav"></a></li>
-        </ul>
     </header>
     <section>
-        <div class="background">
-            <div class="typewriter">
-                <h1>안녕하세요.웹 퍼블리셔 신지운 개인 웹사이트 입니다.</h1>
-            </div>
-            <div class="introduce">
-                <h2 class="notext">introduce</h2>
-                <div class="introduce_text">
-                    <p style="font-weight:800; color: black; font-size:20px; margin: 30px 30px; line-height: 50px;">
-                        #html,css,javascript,#responsive
-                        <br>
-                        #배움을 게을리 하지 않는
-                        <br>
-                        #웹 퍼블리싱을 즐기는
-                        <br>
-                        #꾸준함 # 성실함
-                    </p>
-                </div>
-            </div>
-        </div>
-        </div>
+        <!-- <div class="background">
+            
+        </div> -->
         <div class="skills">
             <div id="bars" class="div1"> 
                 <div class="bar" data-percent="80">
@@ -76,37 +57,30 @@
             </div>	 
         </div>    
         <div class="work" id="div2"> 
-            <a href="http://jiun.dothome.co.kr/gymshark/" target="_blank">
-                <div class="portfolio">
-                    <img src="images/gymsharkthumb.png" alt="thumb" >
-                    <span class="text">GYM SHARK</span>
-                </div>
-            </a>
-            <a href="http://jiun.dothome.co.kr/lotte-elstyle/" target="_blank">
-                <div class="portfolio">
-                <img src="images/lottethumb.png" alt="thumb">
-                <span class="text">롯데 엘스타일</span>
-                </div>
-            </a>
-            <a href="http://jiun.dothome.co.kr/amore/" target="_blank">
-            <div class="portfolio">
-                <img src="images/amorethumb.png" alt="thumb">
-                <span class="text">아모레 퍼시픽</span>
-            </div>
-            </a>
-            <a href="http://jiun.dothome.co.kr/main/" target="_blank">
-            <div class="portfolio">
-                <img src="images/mainthumb.png" alt="thumb">
-                <span class="text">포트플리오 사이트</span>
-            </div>
-            </a>
-            
+            <ul>
+                <li class="work_img" class="box">
+                    <a href="http://jiun.dothome.co.kr/gymshark/" target="_blank"><img src="images/gymshark.png" alt="thumbnail"></a>
+                    <p>짐샤크 홈페이지를 리뉴얼하여 제작하였습니다.</p>
+                </li>
+                <li class="work_img" class="box">
+                    <a href="http://jiun.dothome.co.kr/matdadam/" target="_blank"><img src="images/matdadam.png" alt="thumbnail"></a>
+                    <p>맛다담 홈페이지를 리뉴얼하여 제작하였습니다.</p>
+                </li>
+                <li class="work_img" class="box"> 
+                    <a href="http://jiun.dothome.co.kr/lotte-elstyle/" target="_blank"><img src="images/lotte.png" alt="thumbnail"></a>
+                    <p>롯데 엘스타일 홈페이지를 리뉴얼하여 제작하였습니다.</p>
+                </li>
+                <li class="work_img" class="box">
+                    <a href="http://jiun.dothome.co.kr/amore/" target="_blank"><img src="images/amore.png" alt="thumbnail"></a>
+                    <p>아모레퍼시픽 홈페이지를 리뉴얼하여 제작하였습니다.</p>
+                </li>
+            </ul>
         </div> 
     </section>
     <footer>
-        <ul class="contact">
+        <ul class="contact" class="box">
             <div style="font-weight: 800; text-transform: capitalize;" id="div3">contact</div>
-            <h4 style="padding-bottom: 150px;" class="notext">contact</h4>
+            <h4 class="notext">contact</h4>
             <li class="contact_left">
                 <img src="images/profile.jpg" alt="profile">
             </li>
