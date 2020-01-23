@@ -13,7 +13,7 @@ $(window).scroll(function(){
 
 $(document).ready(function(){
     $('#btn1').click(function(){
-        var offset = $('.div1').offset();
+        var offset = $('#div1').offset();
         $('html').animate({scrollTop : offset.top}, 800);
     });
 });
@@ -32,6 +32,12 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $('#btn4').click(function(){
+        var offset = $('#div4').offset();
+        $('html').animate({scrollTop : offset.top}, 800);
+    });
+});
 
 /* top btn */
 $(function() {
