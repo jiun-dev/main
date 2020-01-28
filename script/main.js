@@ -3,11 +3,14 @@
 $(window).scroll(function(){
 	var scroll = $(window).scrollTop();
 	if(scroll < 300){
-		$('.topnav').css('background', 'transparent');
+		$('.nav').css('background', 'transparent');
 	} else{
-		$('.topnav').css('background', '#accff9');
+		$('.nav').css('background', '#999999');
 	}
 });
+
+
+  
 
 /* scroll btn */
 
