@@ -43,10 +43,16 @@
             <p class="about_text2">html과 css를 꼼꼼하게하게 에러 없이 다루면서 트렌드의 변화속도를 따라가는 퍼블리셔가 되는 것이 저의 목표입니다.<br>
                 무슨 일이든지 포기하지 않고 꾸준히 노력한다면 못하는건 없다고 생각합니다.<br>
                 19년11월 한울직업 전문학교에서 웹 퍼블리셔 양성 과정 6개월 과정을 수료후 <br>
-                프론트엔드에 관심을 갖고 꾸준히 공부하는 중입니다.<br>
+                부족한 점을 깨닫고 프론트엔드에 관심을 갖고 꾸준히 공부하는 중입니다.<br>
                 끝없이 탐구하고 창의적으로 이끄는 웹 퍼블리셔가 되겠습니다.</p>
         </div>
         <div class="skills" id="div2">
+            <div class="skill_title">
+              <p>skiills</p>
+            </div>
+            <div class="skiii_text">
+              <p>제 <span>능력</span>을 수치화하여 표현하였습니다.</p>
+            </div>
             <div id="bars"> 
                 <div class="bar" data-percent="80">
                     <h3>CSS</h3>
@@ -69,45 +75,59 @@
                     <canvas class="bar-circle" width="70" height="70"></canvas>
                 </div>
             </div>	 
-        </div>    
-        <div class="work" id="div3"> 
-            <ul>
-                <li class="work_img" class="box">
-                    <a href="http://jiun.dothome.co.kr/gymshark/" target="_blank"><img src="images/gymshark.png" alt="thumbnail"></a>
-                    <p>짐샤크 홈페이지를 리뉴얼하여 제작하였습니다.</p>
-                </li>
-                <li class="work_img" class="box">
-                    <a href="http://jiun.dothome.co.kr/matdadam/" target="_blank"><img src="images/matdadam.png" alt="thumbnail"></a>
-                    <p>맛다담 홈페이지를 리뉴얼하여 제작하였습니다.</p>
-                </li>
-                <li class="work_img" class="box"> 
-                    <a href="http://jiun.dothome.co.kr/lotte-elstyle/" target="_blank"><img src="images/lotte.png" alt="thumbnail"></a>
-                    <p>롯데 엘스타일 홈페이지를 리뉴얼하여 제작하였습니다.</p>
-                </li>
-                <li class="work_img" class="box">
-                    <a href="http://jiun.dothome.co.kr/amore/" target="_blank"><img src="images/amore.png" alt="thumbnail"></a>
-                    <p>아모레퍼시픽 홈페이지를 리뉴얼하여 제작하였습니다.</p>
-                </li>
-            </ul>
-        </div> 
+        </div>
+        <div class="container" id="div3">
+          <p class="heading">project <span>my portfolio</span></p>
+            <div class="gallery">
+              <div class="gallery-item">
+                <a href="http://jiun.dothome.co.kr/gymshark/" target="_blank"><img class="gallery-image" src="images/gymshark.png" alt=""></a>
+              </div>
+              <div class="gallery-item">
+                <a href="http://jiun.dothome.co.kr/matdadam/" target="_blank"><img class="gallery-image" src="images/matdadam.png" alt=""></a>
+              </div>
+              <div class="gallery-item">
+                <a href="http://jiun.dothome.co.kr/lotte-elstyle/" target="_blank"><img class="gallery-image" src="images/elstyle.png" alt=""></a>
+              </div>
+              <div class="gallery-item">
+                <a href="http://jiun.dothome.co.kr/amore/" target="_blank"><img class="gallery-image" src="images/amore.png" alt=""></a>
+              </div>
+              <div class="gallery-item">
+                <a href="http://jiun.dothome.co.kr/gymshark/" target="_blank"><img class="gallery-image" src="https://images.unsplash.com/photo-1445810694374-0a94739e4a03?w=500&h=500&fit=crop" alt=""></a>
+              </div>
+              <div class="gallery-item">
+                <a href="http://jiun.dothome.co.kr/gymshark/" target="_blank"><img class="gallery-image" src="https://images.unsplash.com/photo-1486334803289-1623f249dd1e?w=500&h=500&fit=crop" alt=""></a>
+              </div>
+            </div>
+        </div>
     </section>
     <footer>
-        <ul class="contact" class="box">
-            <div style="font-weight: 800; text-transform: capitalize;" id="div4">contact</div>
-            <h4 class="notext">contact</h4>
-            <li class="contact_left">
-                <img src="images/profile.jpg" alt="profile">
-            </li>
-            <li class="contact_right">
-                <p>E-mail : tlswldns456@naver.com</p>
-                <p>Phone : 010 - 3643 - 2868</p>
-                <p>Address : 광주 광역시 북구 동림동 (동림용산로12)</p>
-                <div class="contact_sns">
-                <p class="insta"><a href="https://www.instagram.com/ji_un95/" target="_blank"><img src="images/insta.png" alt="insta_fav"></a></p>
-                <p class="github"><a href="https://github.com/jiun-dev?tab=repositories" target="_blank"><img src="images/github.png" alt="github_fav"></a></p>
-                </div>
-            </li>
-        </ul>
+        <div class="contact" id="div4">
+          <div class="contact_me">
+            <p>contact me</p>
+          </div>
+          <div class="row">
+            <div class="column">
+              <!-- <img src="images/map.png" alt="map" style="width:100%"> -->
+            </div>
+            <div class="column">
+              <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="korea">korea</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+          </div>
+        </div>
         <div class="copy">
             <h5>&copy;Copyright 2019. 신지운 포트폴리오. All rights reserved.</h5>
             <h6>본 페이지는 상업용이 아닌 포트폴리오 용으로 제작되었습니다.</h6>
