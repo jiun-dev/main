@@ -6,26 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>신지운 포트폴리오</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" media="( min-width: 481px ) and ( max-width: 767px )" href="css/mobile.css">
-    <link rel="stylesheet" media="( min-width: 768px ) and ( max-width: 1024px )" href="css/tablet.css">
-    <link rel="stylesheet" media="( min-width: 1025px ) and ( max-width: 1280px )" href="css/notebook.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="script/main.js"></script>
 </head>
-<body >
+<body>
     <header>
-        <div class="topnav" id="myTopnav">
-            <div class="logo">
-                <a href="#"><img src="images/logo.png" alt="logo"></a>
-            </div>
-            <ul>
-                <li class="btn" style="text-transform: capitalize;"><a href="#">home</a></li>
-                <li class="btn" style="text-transform: capitalize;" id="btn1"><a href="#">about</a></li>
-                <li class="btn" style="text-transform: capitalize;" id="btn2"><a href="#">skills</a></li>
-                <li class="btn" style="text-transform: capitalize;" id="btn3"><a href="#">portfolio</a></li>
-                <li class="btn" style="text-transform: capitalize;" id="btn4"><a href="#">contact</a></li>
-            </ul>
-        </div>
+
+      <div class="topnav" id="myTopnav">
+        <a href="#" class="active">Home</a>
+        <a href="#" id="btn1">about</a>
+        <a href="#" id="btn2">skills</a>
+        <a href="#" id="btn3">portfolio</a>
+        <a href="#" id="btn4">contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
         <div class="welcome">
             <h1 class="welcome_title">Hello my world.</h1>
             <h2 class="welcome_text">안녕하세요.<br>
@@ -133,12 +130,7 @@
             <h6>본 페이지는 상업용이 아닌 포트폴리오 용으로 제작되었습니다.</h6>
         </div>
         <a id="move_top_btn" href="#">TOP</a>
-        <!-- 2020.01.13 -->
+        <!-- 2020.01.29 -->
     </footer>
-
-    <!-- jQuery 호출 -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
 </body>
 </html>
