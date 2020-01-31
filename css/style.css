@@ -36,6 +36,7 @@ header {
   background-color: #accff9;
   width: 100%;
   height: 700px;
+  
 }
 
 header .topnav .logo, ul {
@@ -399,7 +400,7 @@ label {
   }
 
   .bar h3 {
-    font-size: 5px;
+    font-size: 10px;
   }
   
 }
