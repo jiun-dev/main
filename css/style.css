@@ -379,6 +379,33 @@ label {
 
 /*--------------------media query----------------------------*/
 
+@media screen and (max-width: 600px) {
+  .welcome_title {
+    font-size: 12px;
+    color: #7496d6;
+  }
+  
+  .welcome_text {
+    font-size: 12px;
+    padding-top: 10px;
+    color: #395abb;
+  }
+  
+  .welcome p {
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #7496d6;
+  }
+
+  .bar h3 {
+    font-size: 5px;
+  }
+  
+}
+
+
+
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
