@@ -36,7 +36,6 @@ header {
   background-color: #accff9;
   width: 100%;
   height: 700px;
-  
 }
 
 header .topnav .logo, ul {
@@ -106,15 +105,23 @@ header ul {
 /* about */
 
 .about {
+  background: url("../images/about.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #accff9;
+  width: 100%;
   height: 800px;
   position: relative;
-  margin-left: 15%;
+  
   padding-top:150px;
   text-transform: uppercase;
 }
 
 .about > p {
   text-align: left;
+  margin-left: 15%;
 }
 
 .about_title {
@@ -140,13 +147,13 @@ header ul {
 
 .about_text1 {
   font-weight: 700;
-  color: #333;
+  color: black;
   opacity: 0.5;
 }
 
 .about_text2 {
   font-weight: 700;
-  color: #c69dd5;
+  color: #7496d6;
 }
 
 /*section*/
@@ -157,6 +164,8 @@ section {
 }
 
 /*skills*/
+
+
 
 .skills {
   background-color: #7496d6;
