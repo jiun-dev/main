@@ -75,64 +75,66 @@
                 </div>
             </div>	 
         </div>
-        <div class="container" id="div3">
-          <p class="heading">project <span>my portfolio</span></p>
-            <div class="gallery">
-              <div class="gallery-item">
-                <a href="http://jiun.dothome.co.kr/netflix/" target="_blank"><img class="gallery-image" src="images/netflix.png" alt=""></a>
-              </div>
-              <div class="gallery-item">
-                <a href="http://jiun.dothome.co.kr/gymshark/" target="_blank"><img class="gallery-image" src="images/gymshark.png" alt=""></a>
-              </div>
-              <div class="gallery-item">
-                <a href="http://jiun.dothome.co.kr/momentum/" target="_blank"><img class="gallery-image" src="images/momentum.png" alt=""></a>
-              </div>
-              <div class="gallery-item">
-                <a href="http://jiun.dothome.co.kr/matdadam/" target="_blank"><img class="gallery-image" src="images/matdadam.png" alt=""></a>
-              </div>
-              <div class="gallery-item">
-                <a href="http://jiun.dothome.co.kr/lotte-elstyle/" target="_blank"><img class="gallery-image" src="images/elstyle.png" alt=""></a>
-              </div>
-              <div class="gallery-item">
-                <a href="http://jiun.dothome.co.kr/amore/" target="_blank"><img class="gallery-image" src="images/amore.png" alt=""></a>
-              </div>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <div class="contact" id="div4">
-          <div class="contact_me">
-            <p>contact me</p>
+
+        <div class="portfolio" id="div3" style="text-align: center;">
+          <p>My Project</p>
+          <div class="navigation">
+            <a href="#" onclick="return false;" data-filter="all" class="button active">All</a>
+            <a href="#" onclick="return false;" data-filter="web" class="button">Web</a>
+            <a href="#" onclick="return false;" data-filter="responsive" class="button">Responsive</a>
           </div>
-          <div class="row">
-            <div class="column">
-              <!-- <img src="images/map.png" alt="map" style="width:100%"> -->
+          <div class="imageContainer">
+            <div class="filter web responsive">
+              <a href="http://jiun.dothome.co.kr/netflix/" target="_blank"><img src="images/netflix.png" alt="thumbnail"></a>
             </div>
-            <div class="column">
-              <form action="/action_page.php">
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                <label for="country">Country</label>
-                <select id="country" name="country">
-                  <option value="korea">korea</option>
-                  <option value="canada">Canada</option>
-                  <option value="usa">USA</option>
-                </select>
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-                <input type="submit" value="Submit">
-              </form>
+            <div class="filter web responsive">
+              <a href="http://jiun.dothome.co.kr/gymshark/" target="_blank"><img src="images/gymshark.png" alt="thumbnail"></a>
+            </div>
+            <div class="filter web responsive">
+              <a href="http://jiun.dothome.co.kr/matdadam/" target="_blank"><img src="images/matdadam.png" alt="thumbnail"></a>
+            </div>
+            <div class="filter web">
+              <a href="http://jiun.dothome.co.kr/amore/" target="_blank"><img src="images/amore.png" alt="thumbnail"></a>
+            </div>
+            <div class="filter web">
+              <a href="http://jiun.dothome.co.kr/lotte-elstyle/" target="_blank"><img src="images/elstyle.png" alt="thumbnail"></a>
+            </div>
+            <div class="filter web responsive">
+              <a href="http://jiun.dothome.co.kr/momentum/" target="_blank"><img src="images/momentum.png" alt="thumbnail"></a>
             </div>
           </div>
         </div>
+
+        <div id="div4" class="contact-form">
+          <h4>Contact Me</h4>
+          <div class="txtb">
+            <label>Full Name :</label>
+            <input type="text" name="" value="" placeholder="Enter Your Name">
+          </div>
+
+          <div class="txtb">
+            <label>Email :</label>
+            <input type="email" name="" value="" placeholder="Enter Your Email">
+          </div>
+
+          <div class="txtb">
+            <label>Phone Number :</label>
+            <input type="text" name="" value="" placeholder="Enter Your Phone Number">
+          </div>
+
+          <div class="txtb">
+            <label>Message :</label>
+            <textarea></textarea>
+          </div>
+          <a class="btn">Send</a>
+        </div>
+
         <div class="copy">
             <h5>&copy;Copyright 2019. 신지운 포트폴리오. All rights reserved.</h5>
             <h6>본 페이지는 상업용이 아닌 포트폴리오 용으로 제작되었습니다.</h6>
         </div>
         <a id="move_top_btn" href="#">TOP</a>
-        <!-- 2020.02.03 -->
+        <!-- 2020.02.17 -->
     </footer>
 </body>
 </html>
