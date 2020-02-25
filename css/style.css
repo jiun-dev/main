@@ -28,27 +28,8 @@ a,a:link{
 
 
 header {
-  background: url("../images/main.png") no-repeat center center fixed; 
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
-  background-size:100% auto;
-  background-color: #accff9;
   width: 100%;
-  height: 700px;
-}
-
-header .topnav .logo, ul {
-  display: inline-block;
-}
-
-header ul {
-  margin-left: 700px;
-}
-
-.logo {
-  float: left;
-  margin:5px 15px;
+  height: 100%;
 }
 
 .topnav {
@@ -79,28 +60,61 @@ header ul {
 
 /*welcome*/
 
-.welcome {
+.img-container {
+  background-image: url(../images/main.jpg);
+  height: 100%;
+  background-position:center ;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
-  margin-left:55% ;
-  padding-top: 15%;
 }
 
-.welcome_title {
-  font-size: 50px;
-  color: #7496d6;
+.inner-container {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  color: white;
+  height: auto;
+  margin-top: 200px;
 }
 
-.welcome_text {
-  font-size: 25px;
-  padding-top: 20px;
-  color: #395abb;
+h1 {
+  font-size: 7em;
+  font-family: "Shadows into Light", sans-serif;
 }
 
-.welcome p {
-  padding-top: 20px;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #7496d6;
+h2 {
+  margin-top: -17px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.7em;
+  text-align: center;
+  font-weight: 400;
+}
+
+.inner-container a {
+  margin-top: 20px;
+  font-size:1.3em;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.banner-btn {
+  display: inline-block;
+  width: 200px;
+  font-weight: bold;
+  padding: 10px;
+  color: white;
+  border: 4px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+
+.banner-btn:hover ,
+.banner-btn:active {
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in;
 }
 
 /* about */
@@ -115,8 +129,6 @@ header ul {
   width: 100%;
   height: 800px;
   position: relative;
-  
-  padding-top:150px;
   text-transform: uppercase;
 }
 
@@ -160,7 +172,6 @@ header ul {
 /*section*/
 
 section {
-  padding-top:150px ;
   text-align: center;
 }
 
@@ -414,5 +425,25 @@ footer {
     margin-top: 0;
   }
 }
+
+
+@media only screen and (max-width: 920px){
+  .inner-container{
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 540px){
+  .inner-container{
+    margin-top: 150px;
+  }
+  h1 {
+    font-size: 5em;
+  }
+  h2 {
+    font-size: 1.4em;
+  }
+}
+
 
 
